@@ -18,3 +18,15 @@
 # do
 #     echo $REPLY | cut -c 2,7
 # done
+
+
+# CUT 3
+# while read
+# do
+#     echo $REPLY | cut -c 2,3,4,5,6,7
+# done
+
+
+# CUT 4 (Using Parameter Expansion)
+while read; do
+    echo ${REPLY:0:4}; done
