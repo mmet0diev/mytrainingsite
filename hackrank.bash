@@ -27,6 +27,11 @@
 # done
 
 
-# CUT 4 (Using Parameter Expansion)
+# CUT 4 
+# while read; do
+#     echo $REPLY | cut -c 1,2,3,4; done
+
+
+# CUT 5
 while read; do
-    echo ${REPLY:0:4}; done
+    echo $REPLY | cut --output-delimiter="  "; done
