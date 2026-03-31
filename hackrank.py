@@ -51,7 +51,8 @@ def print_rangoli(size):
 
     print(letters)
     print(letters1)
-    print(rangoli)
+    
+    # print(rangoli)
 
 
 print_rangoli(3)
