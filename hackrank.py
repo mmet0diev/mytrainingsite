@@ -51,17 +51,6 @@ from cmath import *
 #         rangoli+=lets
 
 
-<<<<<<< HEAD
-#     print(letters)
-#     print(letters1)
-#     print(rangoli)
-=======
-    print(letters)
-    print(letters1)
-    
-    # print(rangoli)
->>>>>>> d4eb8c146b0a2d7f16beef66816c89f1bd35cc36
-
 
 # print_rangoli(3)
 
