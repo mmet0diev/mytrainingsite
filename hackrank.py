@@ -51,13 +51,24 @@ from cmath import *
 #         rangoli+=lets
 
 
+def top(n):
+    pass
 
-# print_rangoli(3)
 
-# Problem/Solution - Polar Coordinates
-n = input()
+def print_rangoli(size):
+    # your code goes here
+    
+    # in ascii decimal a is code 97 and z is code 122
+    # a = chr(97)
+    # z = chr(122)
+    # print(a)
+    # print(z)
+    
+    res = ''
+    
+    return res
 
-complex_n = complex(n)
 
-print(abs(complex_n))
-print(phase(complex_n))
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
