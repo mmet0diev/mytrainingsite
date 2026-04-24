@@ -51,24 +51,20 @@ from cmath import *
 #         rangoli+=lets
 
 
-def top(n):
-    pass
-
-
-def print_rangoli(size):
-    # your code goes here
+# def print_rangoli(size):
+#     # your code goes here
     
-    # in ascii decimal a is code 97 and z is code 122
-    # a = chr(97)
-    # z = chr(122)
-    # print(a)
-    # print(z)
+#     # in ascii decimal a is code 97 and z is code 122
+#     # a = chr(97)
+#     # z = chr(122)
+#     # print(a)
+#     # print(z)
     
-    res = ''
+#     res = ''
     
-    return res
+#     return res
 
 
-if __name__ == '__main__':
-    n = int(input())
-    print_rangoli(n)
+# if __name__ == '__main__':
+#     n = int(input())
+#     print_rangoli(n)
